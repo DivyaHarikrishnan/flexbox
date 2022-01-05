@@ -1,0 +1,64 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    align-items: center;
+    width:100%;
+}.logo{
+  padding:5px;
+}
+.name{
+  padding:5px;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin:10px;
+}
+.content {
+    width: 48%;
+    height:230px;
+    text-align: justify;
+}
+.image-box {
+   width: 50%;
+   height:230px;
+}
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin:10px;
+}
+.image-box1
+{
+    width:50%;
+    height:230px;
+}
+.content1
+{
+    width:50%;
+    height:230px;
+    text-align: justify;
+}
+.box1 {
+    margin:10px;
+    text-align: justify;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    height: 60px;
+    width:100%;
+}
+@media screen and (max-width: 480px) {
+  .header,.image-box1,.content,.content1,.footer,.image-box,.box1{
+      width:100%;
+  }
+  
+}
